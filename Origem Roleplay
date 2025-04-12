@@ -1,3 +1,82 @@
-index.html
-styles.css
-images
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Origem Roleplay - GTA SA SA-MP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>Origem Roleplay</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#regras">Regras</a></li>
+                    <li><a href="#sistemas">Sistemas</a></li>
+                    <li><a href="#download">Download</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="intro">
+            <h2>Bem-vindo ao Origem Roleplay!</h2>
+            <p>Junte-se ao nosso servidor de GTA SA-SA MP para uma experiência de roleplay imersiva, com eventos, facções e missões exclusivas!</p>
+        </div>
+    </section>
+
+    <section id="regras">
+        <h2>Regras do Servidor</h2>
+        <ul>
+            <li>1. Respeite todos os jogadores.</li>
+            <li>2. Não utilize cheats ou hacks.</li>
+            <li>3. Interaja com os outros de forma realista.</li>
+            <li>4. Não faça uso de bugs ou exploits.</li>
+        </ul>
+    </section>
+
+    <section id="sistemas">
+        <h2>Sistemas Exclusivos</h2>
+        <p>Em Origem Roleplay, temos sistemas inovadores que melhoram a experiência do jogador:</p>
+        <ul>
+            <li><strong>Sistema de Facções:</strong> Junte-se a facções de criminosos, policiais e outras facções dentro do jogo.</li>
+            <li><strong>Sistema de Economia:</strong> Compre e venda propriedades, veículos e muito mais.</li>
+            <li><strong>Sistema de Missões:</strong> Complete missões para ganhar dinheiro e recompensas.</li>
+        </ul>
+    </section>
+
+    <section id="download">
+        <h2>Como Jogar</h2>
+        <p>Para jogar, baixe o mod SA-MP e conecte-se ao nosso servidor!</p>
+        <ul>
+            <li><a href="https://www.sa-mp.com/download.php" target="_blank">Baixe o SA-MP</a></li>
+            <li>IP do Servidor: <strong>origemroleplay.com</strong></li>
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Se você tiver dúvidas ou sugestões, entre em contato conosco!</p>
+        <form action="#">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Origem Roleplay - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
